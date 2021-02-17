@@ -17,6 +17,10 @@ img {
     width: 300;  
 }
 
+img:hover {
+    background-color: gold;
+}
+
 h1 {
     color: #66BFBF;
 }
@@ -31,8 +35,24 @@ h3 {
     background-color: #ffefa1;
 }
 
+.black {
+    color: black;
+}
+
 .loanloss {
     background-color: #ffcb91;
+}
+
+.trump {
+    background-color: #ffefa1;
+}
+
+.credit {
+    background-color: #ffcb91;
+}
+
+.sneaker {
+    background-color: #ffefa1;
 }
 
 /* ID SELECTORS */

@@ -2,10 +2,20 @@
 body {
     margin: 0px;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
     margin-top: 0%;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .top-container {
@@ -15,15 +25,19 @@ h1 {
 }
 
 .middle-container {
-    height: 200px;
-    width: 200px;
-    background-color: red;
 }
 
+.profile-pic {
+    height: 300px;
+    width: 300px;
+}
+
+/* .skills-pic {
+    height: 10%;
+    width: 10%;
+} */
+
 .bottom-container {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
 }
 
 .datascientist {

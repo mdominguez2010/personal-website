@@ -1,13 +1,29 @@
-/* TAG SELECTORS */
 
 body {
     margin: 0px;
-}
-div {
-    background-color: #f4f9f9;
 }
 
 h1 {
     margin-top: 0px;
 
+}
+
+.top-container {
+    background-color: #f4f9f9;
+}
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.bottom-container {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.datascientist {
+    text-decoration: underline;
 }

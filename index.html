@@ -2,80 +2,68 @@
 <html>
 
     <head>
-        <meta charset='utf-8'>
-        <title>Marcos's Personal Site</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <title> Marcos Dominguez - A Data Scientist</title>
+        <link rel="stylesheet" href="css/styles2.css">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <table cellspacing="20"
-            <tr>
-                <td><img src="images/me.png" alt="Marcos profile pic"></img></td>
-                <td><h1 id="heading">Marcos Dominguez</h1>
-                <p><strong>Data scientist with a background in banking</strong></p>
-                <p>In the process of transitioning to Data Science for banking. I love my family.</p></td>
-            </tr>
-        </table>
-        <hr>
-        <h3><strong>Recent Projects</strong></h3>
-        <ol>
-            <li><a class="timeseries black" href="https://github.com/mdominguez2010/predict-stock-price-arima">Stock Price Forecasting with ARIMA Model</a></li>
-            <li><a class="loanloss black" href="https://github.com/mdominguez2010/Loan_Portfolio_Risk">Predicting Portfolio Loan Loss</a></li>
-            <li><a class="trump black" href="https://github.com/mdominguez2010/Trump-Speech-NLP">Trump Speech Natural Language Processing</a></li>
-            <li><a class="credit black" href="https://github.com/mdominguez2010/Classification_Credit_Cards">Predicting Credit Card Defaults</a></li>
-            <li><a class="sneaker black" href="https://github.com/mdominguez2010/Predicting_Sneaker_Prices">Predicting Sneaker Prices</a></li>
-        </ol>
-        <hr>
-        <h3>Work Experience</h3>
-        <table border="2">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Title</th>
-                    <th>Company</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>September 2020 - December 2020</td>
-                    <td>Data Scientist</td>
-                    <td>Metis</td>
-                </tr>
-                <tr>
-                    <td>September 2016 - September 2020</td>
-                    <td>Senior Credit Analyst</td>
-                    <td>BAC Community Bank</td>
-                </tr>
-                <tr>
-                    <td>September 2013 - September 2016</td>
-                    <td>Financial Analyst</td>
-                    <td>BAC Community Bank</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <h3>Technical Skills</h3>
-        <table>
-            <tr>
-                <td>Underwriting ⭐️⭐️⭐️⭐️⭐️</td>
-                <td>Financial Analysis ⭐️⭐️⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>Machine Learning ⭐️⭐️⭐️</td>
-                <td>Python ⭐️⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>SQL ⭐️⭐️</td>
-                <td>HTML(5) ⭐️⭐️</td>
-            </tr>
-            <tr>
-                <td>CSS ⭐️⭐️</td>
-                <td>Tableau ⭐️⭐️</td>
-            </tr>
-        </table>
-        <hr>
-        <a href="hobbies.html">Hobbies</a><br>
-        <a href="contact.html">Contact Me</a>
+    
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+            <h1>I'm Marcos.</h1>
+            <h2>a <span class="datascientist">data scientist</span></h2>
+            <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+            <img src="images/mountain.png" alt="mountain-img">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+                <img class ="profile-pic" src="images/me.png" alt="">
+                <h2>Hello.</h2>
+                <p class="introduction">Allow me to introduce myself. I am a data scientist with a background in banking and finance. I love ML and AI.</p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>Technical Skills</h2>
+                <div class="skill-row">
+                    <img class="python-pic" src="images/python.png" alt="python pic">
+                    <h3>Python Programming</h3>
+                    <p class="python-skill-desc">Libraries include numpy, pandas, scikit-learn, matplotlib, seaborn, and tensorflow.</p>
+                </div>
+                <div class="skill-row">
+                    <img class="ml-pic" src="images/ml.png" alt="ML pic">
+                    <h3>Machine Learning</h3>
+                    <p class="ml-skill-desc">Supervised (linear regression, classification) and unsupervised (natural language processing).</p>
+                </div>
+                <div class="skill-row">
+                    <img class="sql-pic" src="images/sql.png" alt="SQL pic">
+                    <h3>SQL</h3>
+                    <p class="sql-skill-desc">PostgreSQL. Creating and querying databases</p>
+                </div>
+                <div class="skill-row">
+                    <img class="financial-pic" src="images/financial.png" alt="financial pic">
+                    <h3>Finance</h3>
+                    <p class="sql-skill-desc">8 years of finance and loan underwriting experience</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h3>Get In Touch</h3>
+                <p class="contact-message">I'd love to chat about machine learning or data science in general</p>
+                <a class="btn" href="mailto:md.ghsd@gmail.com">Contact Me</a>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/marcosdominguez2018/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/mdcruz2010">Twitter</a>
+            <a class="footer-link" href="https://github.com/mdominguez2010">Github</a>
+            <a class="footer-link" href="https://www.hackerrank.com/mdominguez2010">HackerRank</a>
+            <p class="copyright">© 2021 Marcos Dominguez.</p>
+        </div>
+
     </body>
 
 </html>

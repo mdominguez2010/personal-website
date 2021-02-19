@@ -6,20 +6,39 @@ body {
 }
 
 h1 {
-    margin-top: 0%;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+.introduction {
+    width: 50%;
+    margin: auto auto 100px auto;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
 }
 
 .top-container {
-    background-color: #f4f9f9;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 }
@@ -28,8 +47,39 @@ h3 {
 }
 
 .profile-pic {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.python-pic {
+    width: 17%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ml-pic {
+    width: 17%;
+    float: right;
+    /* margin-right: 30px; */
+}
+
+.sql-pic {
+    width: 17%;
+    float: left;
+    margin-right: 30px;   
+}
+
+.financial-pic {
+    width: 17%;
+    float: right;
+    /* margin-right: 30px; */
 }
 
 /* .skills-pic {
